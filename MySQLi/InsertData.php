@@ -21,5 +21,4 @@ if($conn->query($sql) ===TRUE)
     echo "Erro: " . $sql . "<br>" . $conn->error;
 }
 $conn->close();
-
 ?>
